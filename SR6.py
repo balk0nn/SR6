@@ -12,8 +12,13 @@ if delta < 0:
 	print ("Введенное вами DELTA не удовлетворяет требованиям")
 	exit()
 
-b = min (array)
-print(b)
-
+minimum = min(array)
+element = minimum + delta
+d = array.count(element)
+print("В заданном вами массиве",
+d,
+"элементов, отличающихся от минимального на delta",
+sep = " "
+)
 
 
